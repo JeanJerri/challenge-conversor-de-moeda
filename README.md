@@ -25,12 +25,16 @@ Você pode acessar o código fonte do projeto [aqui](./src).
 Para executar o projeto, siga as instruções abaixo:
 
 1. Clone o repositório para sua máquina.
-2. Abra o projeto em sua IDE Java de preferência (recomendo IntelliJ IDEA).
+2. Abra o projeto na IDE IntelliJ IDEA).
 3. Configure a sua chave da API Extended Rate no código:
    - No arquivo `Moedas.java`, substitua a variável `chaveAPI` pela sua chave de API:
      ```java
      private String chaveAPI = "sua-chave-da-api";
      ```
+4. Você precisa **baixar manualmente o arquivo JAR do Gson** e adicioná-lo ao classpath:
+   1. Baixe o JAR de **Gson** no [Maven Central]([https://repo1.maven.org/maven2/com/google/code/gson/gson/](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.9.1/)) — por exemplo, `gson-2.9.1.jar`.
+   2. Em IDEs como IntelliJ ou NetBeans:
+      * Vá em Project Structure → Libraries ou Build Path → Add → selecione o `.jar`.
 4. Execute a classe `Main` para iniciar o programa.
 
 ## 📚 Mais informações do curso
