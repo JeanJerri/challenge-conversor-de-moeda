@@ -32,7 +32,7 @@ Para executar o projeto, siga as instruções abaixo:
      private String chaveAPI = "sua-chave-da-api";
      ```
 4. Você precisa **baixar manualmente o arquivo JAR do Gson** e adicioná-lo ao classpath:
-   1. Baixe o JAR de **Gson** no [Maven Central]([https://repo1.maven.org/maven2/com/google/code/gson/gson/](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.9.1/)) — por exemplo, `gson-2.9.1.jar`.
+   1. Baixe o JAR de **Gson** no [Maven Central](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.9.1/) — por exemplo, `gson-2.9.1.jar`.
    2. Em IDEs como IntelliJ ou NetBeans:
       * Vá em Project Structure → Libraries ou Build Path → Add → selecione o `.jar`.
 4. Execute a classe `Main` para iniciar o programa.
